@@ -1,0 +1,20 @@
+# Recommended Python version: 3.10
+#
+# This file is intentionally pinned for compatibility between:
+# - ManiSkill H5 files
+# - TensorFlow 2.15
+# - TensorFlow Datasets 4.9.2
+# - RLDS/dlimp validation
+# Core numerical and HDF5 dependencies
+numpy==1.26.4
+h5py==3.16.0
+tensorflow==2.15.0
+tensorflow-datasets==4.9.2
+tensorflow-metadata==1.14.0
+protobuf==3.20.3
+
+dlimp @ git+https://github.com/kvablack/dlimp@5edaa4691567873d495633f2708982b42edf1972
+
+mani_skill==3.0.1
+gymnasium==1.3.0
+sapien==3.0.3
