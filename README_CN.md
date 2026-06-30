@@ -59,8 +59,8 @@ conda activate maniskill-rlds
 克隆仓库并进入项目目录：
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-name>
+git clone https://github.com/exileJordan/Maniskill_RLDS_Converter.git
+cd Maniskill_RLDS_Converter
 ```
 
 安装依赖：
